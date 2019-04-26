@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tsung-Ying Ho on Yen-Chi Cheng</title>
+    <link>/authors/tsung-ying-ho/</link>
+    <description>Recent content in Tsung-Ying Ho on Yen-Chi Cheng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Dec 2018 19:28:28 +0800</lastBuildDate>
+    
+	<atom:link href="/authors/tsung-ying-ho/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Radiotherapy Target Contouring with Convolutional Gated Graph Neural Network</title>
+      <link>/publication/nipsw18/</link>
+      <pubDate>Sat, 08 Dec 2018 19:28:28 +0800</pubDate>
+      
+      <guid>/publication/nipsw18/</guid>
+      <description>NeurIPS 2018 Workshop (Spotlight)</description>
+    </item>
+    
+  </channel>
+</rss>
