@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yen-Chi Cheng</title>
+    <title>Tags on Yen-Chi Cheng</title>
     <link>/tags/</link>
-    <description>Recent content on Yen-Chi Cheng</description>
+    <description>Recent content in Tags on Yen-Chi Cheng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Apr 2019 03:20:37 +0800</lastBuildDate>
@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>Point-to-Point Video Generation</title>
-      <link>/publication/p2pvg/</link>
+      <title></title>
+      <link>/tags/</link>
       <pubDate>Fri, 12 Apr 2019 03:20:37 +0800</pubDate>
       
-      <guid>/publication/p2pvg/</guid>
-      <description>#  Steve Francia</description>
+      <guid>/tags/</guid>
+      <description></description>
     </item>
     
   </channel>
