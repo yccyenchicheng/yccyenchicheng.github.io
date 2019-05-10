@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Yen-Chi Cheng</title>
+    <link>/project/</link>
+    <description>Recent content in Projects on Yen-Chi Cheng</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Feb 2019 20:19:15 +0800</lastBuildDate>
+    
+	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PyTorch-VideoVAE</title>
+      <link>/project/videovae/</link>
+      <pubDate>Sun, 10 Feb 2019 20:19:15 +0800</pubDate>
+      
+      <guid>/project/videovae/</guid>
+      <description>A PyTorch implementation of Probabilistic Video Generation using Holistic Attribute Control, ECCV, 2018, by He et al.</description>
+    </item>
+    
+    <item>
+      <title>PyTorch-WGAN-GP-TTUR</title>
+      <link>/project/wgan-gp-ttur/</link>
+      <pubDate>Fri, 30 Nov 2018 20:19:15 +0800</pubDate>
+      
+      <guid>/project/wgan-gp-ttur/</guid>
+      <description>A PyTorch implementation of WGAN-GP-TTUR on the CelebA datasets.</description>
+    </item>
+    
+  </channel>
+</rss>

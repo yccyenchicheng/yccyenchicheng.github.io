@@ -91,6 +91,25 @@
   
     <url>
     
+      <loc>/project/</loc>
+      <lastmod>2019-02-10T20:19:15+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/project/videovae/</loc>
+      <lastmod>2019-02-10T20:19:15+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/deep-learning/</loc>
+      <lastmod>2019-02-10T20:19:15+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
       <loc>/authors/chen-kan-tseng/</loc>
       <lastmod>2018-12-08T19:28:28+08:00</lastmod>
       <priority>0</priority>
@@ -135,6 +154,12 @@
       <loc>/authors/le-luhttp/www.cs.jhu.edu/~lelu/</loc>
       <lastmod>2018-12-08T19:28:28+08:00</lastmod>
       <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/project/wgan-gp-ttur/</loc>
+      <lastmod>2018-11-30T20:19:15+08:00</lastmod>
     </url>
   
     <url>

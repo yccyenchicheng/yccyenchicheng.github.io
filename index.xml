@@ -14,24 +14,16 @@
       <pubDate>Fri, 12 Apr 2019 03:20:37 +0800</pubDate>
       
       <guid>/publication/p2pvg/</guid>
-      <description>&lt;p&gt;#
-
-
-&lt;figure&gt;
-
-&lt;img src=&#34;/content/publication/p2pvg/featured.png&#34; /&gt;
-
-
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
-  &lt;h4&gt;Steve Francia&lt;/h4&gt;
-  
-&lt;/figcaption&gt;
-
-&lt;/figure&gt;&lt;/p&gt;
-
-&lt;p&gt;#&lt;img src=&#34;/content/publication/p2pvg/featured.png&#34; alt=&#34;here&#34; /&gt;&lt;/p&gt;
-</description>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PyTorch-VideoVAE</title>
+      <link>/project/videovae/</link>
+      <pubDate>Sun, 10 Feb 2019 20:19:15 +0800</pubDate>
+      
+      <guid>/project/videovae/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -40,6 +32,15 @@
       <pubDate>Sat, 08 Dec 2018 19:28:28 +0800</pubDate>
       
       <guid>/publication/nipsw18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PyTorch-WGAN-GP-TTUR</title>
+      <link>/project/wgan-gp-ttur/</link>
+      <pubDate>Fri, 30 Nov 2018 20:19:15 +0800</pubDate>
+      
+      <guid>/project/wgan-gp-ttur/</guid>
       <description></description>
     </item>
     
