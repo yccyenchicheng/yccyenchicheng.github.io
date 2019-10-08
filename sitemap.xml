@@ -2,30 +2,50 @@
   
     <url>
     
-      <loc>/tags/</loc>
-      <lastmod>2019-04-12T03:20:37+08:00</lastmod>
-      <priority>0</priority>
+      <loc>/project/</loc>
+      <lastmod>2019-04-14T00:00:00-07:00</lastmod>
     </url>
   
     <url>
     
       <loc>/authors/yen-chi-cheng/</loc>
       <lastmod>2019-04-12T03:20:37+08:00</lastmod>
-      <priority>0</priority>
     </url>
   
     <url>
     
       <loc>/publication_types/1/</loc>
       <lastmod>2019-04-12T03:20:37+08:00</lastmod>
-      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/chieh-hubert-linhttps/hubert0527.github.io/</loc>
+      <lastmod>2019-04-12T03:20:37+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/hwann-tzong-chenhttps/htchen.github.io/</loc>
+      <lastmod>2019-04-12T03:20:37+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/min-sunhttp/aliensunmin.github.io/</loc>
+      <lastmod>2019-04-12T03:20:37+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/tsun-hsuan-wanghttps/zswang666.github.io/</loc>
+      <lastmod>2019-04-12T03:20:37+08:00</lastmod>
     </url>
   
     <url>
     
       <loc>/authors/</loc>
       <lastmod>2019-04-12T03:20:37+08:00</lastmod>
-      <priority>0</priority>
     </url>
   
     <url>
@@ -38,7 +58,6 @@
     
       <loc>/publication_types/</loc>
       <lastmod>2019-04-12T03:20:37+08:00</lastmod>
-      <priority>0</priority>
     </url>
   
     <url>
@@ -51,47 +70,17 @@
     
       <loc>/tags/</loc>
       <lastmod>2019-04-12T03:20:37+08:00</lastmod>
-      <priority>0</priority>
     </url>
   
     <url>
     
       <loc>/</loc>
       <lastmod>2019-04-12T03:20:37+08:00</lastmod>
-      <priority>0</priority>
     </url>
   
     <url>
     
-      <loc>/authors/chieh-hubert-linhttps/hubert0527.github.io/</loc>
-      <lastmod>2019-04-12T03:20:37+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/authors/hwann-tzong-chenhttps/htchen.github.io/</loc>
-      <lastmod>2019-04-12T03:20:37+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/authors/min-sunhttp/aliensunmin.github.io/</loc>
-      <lastmod>2019-04-12T03:20:37+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/authors/tsun-hsuan-wanghttps/zswang666.github.io/</loc>
-      <lastmod>2019-04-12T03:20:37+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/project/</loc>
+      <loc>/tags/deep-learning/</loc>
       <lastmod>2019-02-10T20:19:15+08:00</lastmod>
     </url>
   
@@ -103,30 +92,32 @@
   
     <url>
     
-      <loc>/tags/deep-learning/</loc>
-      <lastmod>2019-02-10T20:19:15+08:00</lastmod>
-      <priority>0</priority>
+      <loc>/authors/hsien-tzu-chenghttps/hsientzucheng.github.io/</loc>
+      <lastmod>2018-12-08T19:28:28+08:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/le-luhttp/www.cs.jhu.edu/~lelu/</loc>
+      <lastmod>2018-12-08T19:28:28+08:00</lastmod>
     </url>
   
     <url>
     
       <loc>/authors/chen-kan-tseng/</loc>
       <lastmod>2018-12-08T19:28:28+08:00</lastmod>
-      <priority>0</priority>
     </url>
   
     <url>
     
       <loc>/authors/chi-wen-huang/</loc>
       <lastmod>2018-12-08T19:28:28+08:00</lastmod>
-      <priority>0</priority>
     </url>
   
     <url>
     
       <loc>/authors/chun-hung-chao/</loc>
       <lastmod>2018-12-08T19:28:28+08:00</lastmod>
-      <priority>0</priority>
     </url>
   
     <url>
@@ -139,21 +130,6 @@
     
       <loc>/authors/tsung-ying-ho/</loc>
       <lastmod>2018-12-08T19:28:28+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/authors/hsien-tzu-chenghttps/hsientzucheng.github.io/</loc>
-      <lastmod>2018-12-08T19:28:28+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>/authors/le-luhttp/www.cs.jhu.edu/~lelu/</loc>
-      <lastmod>2018-12-08T19:28:28+08:00</lastmod>
-      <priority>0</priority>
     </url>
   
     <url>
@@ -170,13 +146,11 @@
     <url>
     
       <loc>/author/</loc>
-      <priority>0</priority>
     </url>
   
     <url>
     
       <loc>/categories/</loc>
-      <priority>0</priority>
     </url>
   
     <url>
@@ -187,12 +161,6 @@
     <url>
     
       <loc>/talk/</loc>
-    </url>
-  
-    <url>
-    
-      <loc>/authors/admin/</loc>
-      <priority>0</priority>
     </url>
   
 </urlset>
