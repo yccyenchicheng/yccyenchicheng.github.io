@@ -9,56 +9,47 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Projects</title>
-      <link>/project/</link>
-      <pubDate>Sun, 14 Apr 2019 00:00:00 -0700</pubDate>
-      
-      <guid>/project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>/publication/</link>
+      <title>Point-to-Point Video Generation</title>
+      <link>/publication/p2pvg/</link>
       <pubDate>Fri, 12 Apr 2019 03:20:37 +0800</pubDate>
       
-      <guid>/publication/</guid>
+      <guid>/publication/p2pvg/</guid>
       <description></description>
     </item>
     
     <item>
-      <title></title>
-      <link></link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>PyTorch-VideoVAE</title>
+      <link>/project/videovae/</link>
+      <pubDate>Sun, 10 Feb 2019 20:19:15 +0800</pubDate>
       
-      <guid></guid>
+      <guid>/project/videovae/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Authors</title>
-      <link>/author/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Radiotherapy Target Contouring with Convolutional Gated Graph Neural Network</title>
+      <link>/publication/nipsw18/</link>
+      <pubDate>Sat, 08 Dec 2018 19:28:28 +0800</pubDate>
       
-      <guid>/author/</guid>
+      <guid>/publication/nipsw18/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Posts</title>
-      <link>/post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>PyTorch-SegInpaint</title>
+      <link>/project/seginpaint/</link>
+      <pubDate>Fri, 30 Nov 2018 20:19:15 +0800</pubDate>
       
-      <guid>/post/</guid>
+      <guid>/project/seginpaint/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>/talk/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>PyTorch-WGAN-GP-TTUR</title>
+      <link>/project/wgan-gp-ttur/</link>
+      <pubDate>Fri, 30 Nov 2018 20:19:15 +0800</pubDate>
       
-      <guid>/talk/</guid>
+      <guid>/project/wgan-gp-ttur/</guid>
       <description></description>
     </item>
     

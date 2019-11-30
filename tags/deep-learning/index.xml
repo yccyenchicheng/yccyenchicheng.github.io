@@ -17,7 +17,16 @@
       <pubDate>Sun, 10 Feb 2019 20:19:15 +0800</pubDate>
       
       <guid>/project/videovae/</guid>
-      <description>A PyTorch implementation of Probabilistic Video Generation using Holistic Attribute Control, ECCV, 2018, by He et al.</description>
+      <description>A PyTorch implementation of a video generation method with attribute control using VAE by He &lt;em&gt;et al.&lt;/em&gt;, ECCV 2018.</description>
+    </item>
+    
+    <item>
+      <title>PyTorch-SegInpaint</title>
+      <link>/project/seginpaint/</link>
+      <pubDate>Fri, 30 Nov 2018 20:19:15 +0800</pubDate>
+      
+      <guid>/project/seginpaint/</guid>
+      <description>A PyTorch implementation of an inpainting method based on Song &lt;em&gt;et al.&lt;/em&gt;, BMVC 2018.</description>
     </item>
     
     <item>
