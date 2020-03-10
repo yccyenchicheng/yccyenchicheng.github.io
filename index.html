@@ -110,7 +110,7 @@
         I would like to pursue a Ph.D./M.S. degree in Computer Science to fulfill my career goal.
         <br>
         <br>
-        Please see my <a href="https://drive.google.com/open?id=1W6Paq4gn2X3wAQIaqWiqqpDJgcy6noA5">CV</a> (last updated Nov. 2019) for more details.
+        Please see my <a href="https://drive.google.com/open?id=1W6Paq4gn2X3wAQIaqWiqqpDJgcy6noA5">CV</a> (last updated Mar. 20) for more details.
         <br>
         <b>I am applying for Ph.D./M.S. in Computer Science for 2020 Fall.</b>
         </p>
@@ -165,6 +165,63 @@
   <tr><td><sectionheading>&nbsp;&nbsp;Publications</sectionheading></td></tr>
 </table>
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
+
+  <tr>
+    <td width="33%" valign="top" align="center">
+        <a href="#">
+        <img src="images/segvae_teaser.png" alt="sym" width="100%" height="15%" style="border-radius:15px"></a>
+    </td>
+
+    <td width="67%" valign="top">
+        <p>
+            <a href="#" id="SegVAE20">
+            <!-- <img src="images/new.png" alt="[NEW]" width="6%" style="border-style: none"> -->
+            <heading>Controllable Image Synthesis via SegVAE</heading></a>
+            <br>
+            <u><b>Yen-Chi Cheng</b></u>, Hsin-Ying Lee, Min Sun, Ming-Hsuan Yang
+            <br>
+            Under review
+            <!-- Conference year, place -->
+        </p>
+
+        <div class="paper" id="segvae20">
+        <a href="#">webpage</a> |
+        <a href="javascript:toggleblock('segvae20_abs')">abstract</a> |
+        <a shape="rect" href="javascript:togglebib('segvae20')" class="togglebib">bibtex</a> |
+        <a href="#">arXiv</a> |
+        <a href="#">code</a>
+
+        <p align="justify">
+            <i id="segvae20_abs">
+              Flexible user controls are desirable for content creation and image editing. 
+              A semantic map is commonly used intermediate representation for conditional image generation. 
+              Compared to the operation on raw RGB pixels, the semantic map enables simpler user modification. 
+              In this work, we specifically target at generating semantic maps given a label-set consisting of desired categories. 
+              The proposed framework, SegVAE, synthesizes semantic maps in an iterative manner using conditional variational autoencoder. 
+              Quantitative and qualitative experiments demonstrate that the proposed model can generate realistic and diverse semantic maps. 
+              We also apply an off-the-shelf image-to-image translation model to generate realistic RGB images to better understand the quality of the synthesized semantic maps. 
+              Furthermore, we showcase several real-world image-editing applications including object removal, object insertion, and object replacement.
+            </i>
+        </p>
+
+        <pre xml:space="preserve">
+        @article{cheng2019segvae,
+            Author = {
+                    Cheng, Yen-Chi and 
+                    Lee, Hsin-Ying and 
+                    Sun, Min and
+                    Yang, Ming-Hsuan
+                  },
+            Title = {Controllable Image Synthesis via {SegVAE}},
+            journal={arXiv preprint arXiv:20XX.XXXXXX},
+            Year = {2020}
+            }
+        </pre>
+
+        </div>
+    </td>
+  </tr>
+
 
     <tr>
         <td width="33%" valign="top" align="center">
@@ -355,6 +412,12 @@
 <script xml:space="preserve" language="JavaScript">
 hideallbibs();
 </script>
+
+<script xml:space="preserve" language="JavaScript">
+  hideblock('segvae20_abs');
+</script>
+  
+
 <script xml:space="preserve" language="JavaScript">
 hideblock('iccv19_abs');
 </script>
