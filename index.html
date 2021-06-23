@@ -100,7 +100,10 @@
 
     <td width="68%" valign="top" align="justify">
         <p>
-        I am a MS student at CMU RI. Previously, I was lucky to have the opportunities to work with 
+        I am a MS student at the RI, CMU School of Computer Science and a research intern at 
+        <a href="https://research.snap.com/team/category/creative-vision/">Snap Research</a> working with 
+        <a href="http://hsinyinglee.com/">Hsin-Ying Lee</a> and <a href="http://www.stulyakov.com/">Sergey Tulyakov</a>.
+        Previously, I was lucky to have the opportunities to work with 
         <a href="http://www.cs.nthu.edu.tw/~lai/"> Prof. Shang-Hong Lai</a> as a research intern at Microsoft,
         <a href="https://faculty.ucmerced.edu/mhyang/">Prof. Ming-Hsuan Yang</a> as a visiting scholar at UC Merced,
         <a href="https://aliensunmin.github.io/">Prof. Min Sun</a> and <a href="https://htchen.github.io/">Prof. Hwann-Tzong Chen</a>
@@ -136,7 +139,7 @@
         I would like to pursue a Ph.D./M.S. degree in Computer Science to fulfill my career goal. -->
         <br>
         <br>
-        Please see my <a href="https://drive.google.com/open?id=1W6Paq4gn2X3wAQIaqWiqqpDJgcy6noA5">CV</a> (last updated July 20) for more details.
+        Please see my <a href="https://drive.google.com/open?id=1W6Paq4gn2X3wAQIaqWiqqpDJgcy6noA5">CV</a> (last updated May 21) for more details.
         <br>
         <br>
         <!-- <b>I am applying for M.S. in Computer Science for 2020 Fall.</b> -->
@@ -151,6 +154,12 @@
 <table width="100%" align="center" style="margin-left:10px" cellspacing="0" cellpadding="0" border="0">
     <tr>
         <th width="16.7%" valign="top" align="center">
+        <img src="images/snap_logo.png" alt="sym" width="60%"></a>
+        <!-- <p style="line-height:1.3; font-size:12pt">CMU<br>M.S. in Computer Vision<br>Jan. 21 - June. 22</p> -->
+        <p style="line-height:1.3; font-size:12pt">Snap Inc.<br>Research Intern<br>May. 21 - Present</p>
+        </th>
+
+        <th width="16.6%" valign="top" align="center">
         <img src="images/cmu.png" alt="sym" width="90%"></a>
         <!-- <p style="line-height:1.3; font-size:12pt">CMU<br>M.S. in Computer Vision<br>Jan. 21 - June. 22</p> -->
         <p style="line-height:1.3; font-size:12pt">CMU<br>MSCV<br>Jan. 21 - June. 22</p>
@@ -171,10 +180,10 @@
         <p style="line-height:1.3; font-size:12pt">NTHU<br>Research Assistant<br>Sept. 18 - Feb. 20</p>
         </th>
 
-        <th width="16.6%" valign="top" align="center">
+        <!-- <th width="16.6%" valign="top" align="center">
         <img src="images/relajet.png" alt="sym" width="60%"></a>
         <p style="line-height:1.3; font-size:12pt">RelaJet<br>Intern<br>March 18 - Aug. 18</p>
-        </th>
+        </th> -->
 
         <th width="16.6%" valign="top" align="center">
         <img src="images/ntu.png" alt="sym" width="60%"></a>
@@ -195,6 +204,8 @@
   <tr><td>
     <sectionheading>&nbsp;&nbsp;News</sectionheading>
     <ul>
+      <li> [05/2021] Start my research internship at <a href="https://research.snap.com/team/category/creative-vision/">Snap Research</a> working with 
+        <a href="http://hsinyinglee.com/">Hsin-Ying Lee</a> and <a href="http://www.stulyakov.com/">Sergey Tulyakov</a>.</li>
       <li> [02/2021] Start my graduate study at <b>CMU RI</b>!</li>
       <li> [07/2020] One paper accepted at <b>ECCV'20</b>.</li>
       <li> [03/2020] Start my research internship at Microsoft AI R&D Center, Taiwan working with
@@ -269,6 +280,69 @@
                   },
             title = {{In&Out}: Diverse Image Outpainting via GAN Inversion},
             journal={arXiv preprint arXiv:2104.00675},
+            year = {2021}
+            }
+        </pre>
+
+        </div>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td width="33%" valign="top" align="center">
+        <a href="#">
+        <img src="images/infinityGAN.png" alt="sym" width="300" height="200" style="border-radius:15px">
+        </a>
+    </td>
+
+    <td width="67%" valign="top">
+        <p>
+            <a href="#" id="InOut21">
+
+            <heading>InfinityGAN: Towards Infinite-Resolution Image Synthesis</heading></a>
+            <br>
+            Chieh Hubert Lin, Hsin-Ying Lee, <u><b>Yen-Chi Cheng</b></u>, Sergey Tulyakov, Ming-Hsuan Yang
+            <br>
+            <!-- Under review -->
+            arXiv 2021
+        </p>
+
+        <div class="paper" id="infinitygan21">
+        <a href="https://hubert0527.github.io/infinityGAN/">webpage </a> |
+        <a href="javascript:toggleblock('infinitygan21_abs')">abstract</a> |
+        <a shape="rect" href="javascript:togglebib('infinitygan21')" class="togglebib">bibtex</a> |
+        <a href="https://arxiv.org/abs/2104.03963">arXiv</a> |
+        <a href="https://github.com/hubert0527/infinityGAN">code (coming soon)</a>
+
+        <p align="justify">
+            <i id="infinitygan21_abs">
+              Image outpainting seeks for a semantically consistent extension of the input image beyond its available content.
+              Compared to inpainting -- filling in missing pixels in a way coherent with the neighboring pixels -- outpainting
+              can be achieved in more diverse ways since the problem is less constrained by the surrounding pixels.
+              Existing image outpainting methods pose the problem as a conditional image-to-image translation task,
+              often generating repetitive structures and textures by replicating the content available in the input image.
+              In this work, we formulate the problem from the perspective of inverting generative adversarial networks.
+              Our generator renders micro-patches conditioned on their joint latent code as well as their individual positions in the image.
+              To outpaint an image, we seek for multiple latent codes not only recovering available patches but also
+              synthesizing diverse outpainting by patch-based generation. This leads to richer structure and content in the outpainted regions.
+              Furthermore, our formulation allows for outpainting conditioned on the categorical input, thereby enabling flexible user controls.
+              Extensive experimental results demonstrate the proposed method performs favorably against existing in- and outpainting methods,
+              featuring higher visual quality and diversity.
+            </i>
+        </p>
+
+        <pre xml:space="preserve">
+        @article{lin2021infinity,
+            author = {
+                    Lin, Chieh Hubert and
+                    Le, Hsin-Ying and 
+                    Cheng, Yen-Chi and 
+                    Tulyakov, Sergey and
+                    Yang, Ming-Hsuan
+                  },
+            title = {{InfinityGAN}: Towards Infinite-Resolution Image Synthesis},
+            journal={arXiv preprint arXiv:2104.03963},
             year = {2021}
             }
         </pre>
@@ -547,6 +621,10 @@ hideallbibs();
 
 <script xml:space="preserve" language="JavaScript">
   hideblock('inout21_abs');
+</script>
+
+<script xml:space="preserve" language="JavaScript">
+  hideblock('infinitygan21_abs');
 </script>
 
 <script xml:space="preserve" language="JavaScript">
