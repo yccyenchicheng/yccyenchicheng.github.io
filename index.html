@@ -304,6 +304,68 @@
   <tr>
     <td width="33%" valign="top" align="center">
         <a href="#">
+        <img src="images/infinityGAN.png" alt="sym" width="300" height="200" style="border-radius:15px">
+        </a>
+    </td>
+
+    <td width="67%" valign="top">
+        <p>
+            <a href="#" id="InOut21">
+
+            <heading>InfinityGAN: Towards Infinite-Resolution Image Synthesis</heading></a>
+            <br>
+            Chieh Hubert Lin, Hsin-Ying Lee, <u><b>Yen-Chi Cheng</b></u>, Sergey Tulyakov, Ming-Hsuan Yang
+            <br>
+            <!-- Under review -->
+            ICLR 2022
+        </p>
+
+        <div class="paper" id="infinitygan21">
+        <a href="https://hubert0527.github.io/infinityGAN/">webpage </a> |
+        <a href="javascript:toggleblock('infinitygan21_abs')">abstract</a> |
+        <a shape="rect" href="javascript:togglebib('infinitygan21')" class="togglebib">bibtex</a> |
+        <a href="https://arxiv.org/abs/2104.03963">arXiv</a> |
+        <a href="https://github.com/hubert0527/infinityGAN">code (coming soon)</a>
+
+        <p align="justify">
+            <i id="infinitygan21_abs">
+              Image outpainting seeks for a semantically consistent extension of the input image beyond its available content.
+              Compared to inpainting -- filling in missing pixels in a way coherent with the neighboring pixels -- outpainting
+              can be achieved in more diverse ways since the problem is less constrained by the surrounding pixels.
+              Existing image outpainting methods pose the problem as a conditional image-to-image translation task,
+              often generating repetitive structures and textures by replicating the content available in the input image.
+              In this work, we formulate the problem from the perspective of inverting generative adversarial networks.
+              Our generator renders micro-patches conditioned on their joint latent code as well as their individual positions in the image.
+              To outpaint an image, we seek for multiple latent codes not only recovering available patches but also
+              synthesizing diverse outpainting by patch-based generation. This leads to richer structure and content in the outpainted regions.
+              Furthermore, our formulation allows for outpainting conditioned on the categorical input, thereby enabling flexible user controls.
+              Extensive experimental results demonstrate the proposed method performs favorably against existing in- and outpainting methods,
+              featuring higher visual quality and diversity.
+            </i>
+        </p>
+
+        <pre xml:space="preserve">
+        @article{lin2021infinity,
+            author = {
+                    Lin, Chieh Hubert and
+                    Le, Hsin-Ying and 
+                    Cheng, Yen-Chi and 
+                    Tulyakov, Sergey and
+                    Yang, Ming-Hsuan
+                  },
+            title = {{InfinityGAN}: Towards Infinite-Resolution Image Synthesis},
+            journal={arXiv preprint arXiv:2104.03963},
+            year = {2021}
+            }
+        </pre>
+
+        </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="33%" valign="top" align="center">
+        <a href="#">
         <img src="images/inout_thumbnail.png" alt="sym" width="300" height="200" style="border-radius:15px">
         </a>
     </td>
@@ -364,68 +426,6 @@
     </td>
   </tr>
 
-
-  <tr>
-    <td width="33%" valign="top" align="center">
-        <a href="#">
-        <img src="images/infinityGAN.png" alt="sym" width="300" height="200" style="border-radius:15px">
-        </a>
-    </td>
-
-    <td width="67%" valign="top">
-        <p>
-            <a href="#" id="InOut21">
-
-            <heading>InfinityGAN: Towards Infinite-Resolution Image Synthesis</heading></a>
-            <br>
-            Chieh Hubert Lin, Hsin-Ying Lee, <u><b>Yen-Chi Cheng</b></u>, Sergey Tulyakov, Ming-Hsuan Yang
-            <br>
-            <!-- Under review -->
-            arXiv 2021
-        </p>
-
-        <div class="paper" id="infinitygan21">
-        <a href="https://hubert0527.github.io/infinityGAN/">webpage </a> |
-        <a href="javascript:toggleblock('infinitygan21_abs')">abstract</a> |
-        <a shape="rect" href="javascript:togglebib('infinitygan21')" class="togglebib">bibtex</a> |
-        <a href="https://arxiv.org/abs/2104.03963">arXiv</a> |
-        <a href="https://github.com/hubert0527/infinityGAN">code (coming soon)</a>
-
-        <p align="justify">
-            <i id="infinitygan21_abs">
-              Image outpainting seeks for a semantically consistent extension of the input image beyond its available content.
-              Compared to inpainting -- filling in missing pixels in a way coherent with the neighboring pixels -- outpainting
-              can be achieved in more diverse ways since the problem is less constrained by the surrounding pixels.
-              Existing image outpainting methods pose the problem as a conditional image-to-image translation task,
-              often generating repetitive structures and textures by replicating the content available in the input image.
-              In this work, we formulate the problem from the perspective of inverting generative adversarial networks.
-              Our generator renders micro-patches conditioned on their joint latent code as well as their individual positions in the image.
-              To outpaint an image, we seek for multiple latent codes not only recovering available patches but also
-              synthesizing diverse outpainting by patch-based generation. This leads to richer structure and content in the outpainted regions.
-              Furthermore, our formulation allows for outpainting conditioned on the categorical input, thereby enabling flexible user controls.
-              Extensive experimental results demonstrate the proposed method performs favorably against existing in- and outpainting methods,
-              featuring higher visual quality and diversity.
-            </i>
-        </p>
-
-        <pre xml:space="preserve">
-        @article{lin2021infinity,
-            author = {
-                    Lin, Chieh Hubert and
-                    Le, Hsin-Ying and 
-                    Cheng, Yen-Chi and 
-                    Tulyakov, Sergey and
-                    Yang, Ming-Hsuan
-                  },
-            title = {{InfinityGAN}: Towards Infinite-Resolution Image Synthesis},
-            journal={arXiv preprint arXiv:2104.03963},
-            year = {2021}
-            }
-        </pre>
-
-        </div>
-    </td>
-  </tr>
 
   <tr>
     <td width="33%" valign="top" align="center">
