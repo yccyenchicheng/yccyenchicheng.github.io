@@ -250,7 +250,7 @@
             <br>
             <u><b>Yen-Chi Cheng*</b></u>, Paritosh Mittal*, Maneesh Singh, Shubham Tulsiani.
             <br>
-            2021
+            CVPR 2022
             <br>
             (* indicates equal contribution)
         </p>
@@ -293,6 +293,69 @@
                   },
             title = {Non-sequential Autoregressive Shape Priorsfor 3D Completion, Reconstruction and Generation},
             journal={arXiv preprint arXiv:xxxx.xxxx},
+            year = {2022}
+            }
+        </pre>
+
+        </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="33%" valign="top" align="center">
+        <a href="#">
+        <img src="images/inout_thumbnail.png" alt="sym" width="300" height="200" style="border-radius:15px">
+        </a>
+    </td>
+
+    <td width="67%" valign="top">
+        <p>
+            <a href="#" id="InOut21">
+
+            <heading>In&Out: Diverse Image Outpainting via GAN Inversion</heading></a>
+            <br>
+            <u><b>Yen-Chi Cheng</b></u>, Chieh Hubert Lin, Hsin-Ying Lee, Jian Ren, Sergey Tulyakov, Ming-Hsuan Yang
+            <br>
+            <!-- Under review -->
+            CVPR 2022
+        </p>
+
+        <div class="paper" id="inout21">
+        <a href="https://yccyenchicheng.github.io/InOut/">webpage </a> |
+        <a href="javascript:toggleblock('inout21_abs')">abstract</a> |
+        <a shape="rect" href="javascript:togglebib('inout21')" class="togglebib">bibtex</a> |
+        <a href="https://arxiv.org/abs/2104.00675">arXiv</a> |
+        <a href="https://github.com/yccyenchicheng/InOut">code (coming soon)</a>
+
+        <p align="justify">
+            <i id="inout21_abs">
+              Image outpainting seeks for a semantically consistent extension of the input image beyond its available content.
+              Compared to inpainting -- filling in missing pixels in a way coherent with the neighboring pixels -- outpainting
+              can be achieved in more diverse ways since the problem is less constrained by the surrounding pixels.
+              Existing image outpainting methods pose the problem as a conditional image-to-image translation task,
+              often generating repetitive structures and textures by replicating the content available in the input image.
+              In this work, we formulate the problem from the perspective of inverting generative adversarial networks.
+              Our generator renders micro-patches conditioned on their joint latent code as well as their individual positions in the image.
+              To outpaint an image, we seek for multiple latent codes not only recovering available patches but also
+              synthesizing diverse outpainting by patch-based generation. This leads to richer structure and content in the outpainted regions.
+              Furthermore, our formulation allows for outpainting conditioned on the categorical input, thereby enabling flexible user controls.
+              Extensive experimental results demonstrate the proposed method performs favorably against existing in- and outpainting methods,
+              featuring higher visual quality and diversity.
+            </i>
+        </p>
+
+        <pre xml:space="preserve">
+        @article{cheng2021inout,
+            author = {
+                    Cheng, Yen-Chi and 
+                    Lin, Chieh Hubert and
+                    Lee, Hsin-Ying and 
+                    Ren, Jian and
+                    Tulyakov, Sergey and
+                    Yang, Ming-Hsuan
+                  },
+            title = {{In&Out}: Diverse Image Outpainting via GAN Inversion},
+            journal={arXiv preprint arXiv:2104.00675},
             year = {2021}
             }
         </pre>
@@ -300,6 +363,7 @@
         </div>
     </td>
   </tr>
+
 
   <tr>
     <td width="33%" valign="top" align="center">
@@ -362,70 +426,6 @@
         </div>
     </td>
   </tr>
-
-  <tr>
-    <td width="33%" valign="top" align="center">
-        <a href="#">
-        <img src="images/inout_thumbnail.png" alt="sym" width="300" height="200" style="border-radius:15px">
-        </a>
-    </td>
-
-    <td width="67%" valign="top">
-        <p>
-            <a href="#" id="InOut21">
-
-            <heading>In&Out: Diverse Image Outpainting via GAN Inversion</heading></a>
-            <br>
-            <u><b>Yen-Chi Cheng</b></u>, Chieh Hubert Lin, Hsin-Ying Lee, Jian Ren, Sergey Tulyakov, Ming-Hsuan Yang
-            <br>
-            <!-- Under review -->
-            arXiv 2021
-        </p>
-
-        <div class="paper" id="inout21">
-        <a href="https://yccyenchicheng.github.io/InOut/">webpage </a> |
-        <a href="javascript:toggleblock('inout21_abs')">abstract</a> |
-        <a shape="rect" href="javascript:togglebib('inout21')" class="togglebib">bibtex</a> |
-        <a href="https://arxiv.org/abs/2104.00675">arXiv</a> |
-        <a href="https://github.com/yccyenchicheng/InOut">code (coming soon)</a>
-
-        <p align="justify">
-            <i id="inout21_abs">
-              Image outpainting seeks for a semantically consistent extension of the input image beyond its available content.
-              Compared to inpainting -- filling in missing pixels in a way coherent with the neighboring pixels -- outpainting
-              can be achieved in more diverse ways since the problem is less constrained by the surrounding pixels.
-              Existing image outpainting methods pose the problem as a conditional image-to-image translation task,
-              often generating repetitive structures and textures by replicating the content available in the input image.
-              In this work, we formulate the problem from the perspective of inverting generative adversarial networks.
-              Our generator renders micro-patches conditioned on their joint latent code as well as their individual positions in the image.
-              To outpaint an image, we seek for multiple latent codes not only recovering available patches but also
-              synthesizing diverse outpainting by patch-based generation. This leads to richer structure and content in the outpainted regions.
-              Furthermore, our formulation allows for outpainting conditioned on the categorical input, thereby enabling flexible user controls.
-              Extensive experimental results demonstrate the proposed method performs favorably against existing in- and outpainting methods,
-              featuring higher visual quality and diversity.
-            </i>
-        </p>
-
-        <pre xml:space="preserve">
-        @article{cheng2021inout,
-            author = {
-                    Cheng, Yen-Chi and 
-                    Lin, Chieh Hubert and
-                    Lee, Hsin-Ying and 
-                    Ren, Jian and
-                    Tulyakov, Sergey and
-                    Yang, Ming-Hsuan
-                  },
-            title = {{In&Out}: Diverse Image Outpainting via GAN Inversion},
-            journal={arXiv preprint arXiv:2104.00675},
-            year = {2021}
-            }
-        </pre>
-
-        </div>
-    </td>
-  </tr>
-
 
   <tr>
     <td width="33%" valign="top" align="center">
