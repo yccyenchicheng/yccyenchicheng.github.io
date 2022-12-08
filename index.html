@@ -259,6 +259,65 @@
     <td width="33%" valign="top" align="center">
         <a href="#">
         <!-- <img src="images/generative3d_teaser.png" alt="sym" width="300" height="200" style="border-radius:15px"> -->
+        <video autoplay loop muted playsinline width="300" height="300" style="border-radius:1px">
+          <source src="./teaser-thumbnail_sdfusion.mp4" type="video/mp4">
+        </video>
+        </a>
+    </td>
+
+    <td width="67%" valign="top">
+        <p>
+            <a href="#" id="SDFusion22">
+
+            <heading>SDFusion: Multimodal 3D Shape Completion, Reconstruction, and Generation</heading></a>
+            <br>
+            <u><b>Yen-Chi Cheng</b></u>, Hsin-Ying Lee, Sergey Tulyakov, Alexander Schwing, Liangyan Gui
+            <br>
+            Pre-print. arXiv 2022.
+        </p>
+
+        <div class="paper" id="sdfusion22">
+        <a href="https://yccyenchicheng.github.io/SDFusion/">webpage</a> |
+        <a href="javascript:toggleblock('sdfusion22_abs')">abstract</a> |
+        <a shape="rect" href="javascript:togglebib('sdfusion22')" class="togglebib">bibtex</a> |
+        <a href="http://arxiv.org/abs/2203.09516">arXiv</a> |
+        <a href="https://github.com/yccyenchicheng/SDFusion/">code</a>
+
+        <p align="justify">
+            <i id="sdfusion22_abs">
+              In this work, we present a novel framework built to simplify 3D asset generation for amateur users. 
+              To enable interactive generation, our method supports a variety of input modalities that can be easily 
+              provided by a human, including images, text, partially observed shapes and combinations of these, 
+              further allowing to adjust the strength of each input. At the core of our approach is an encoder-decoder, 
+              compressing 3D shapes into a compact latent representation, upon which a diffusion model is learned. 
+              To enable a variety of multi-modal inputs, we employ task-specific encoders with dropout followed by a 
+              cross-attention mechanism. Due to its flexibility, our model naturally supports a variety of tasks, 
+              outperforming prior works on shape completion, image-based 3D reconstruction, and text-to-3D. Most interestingly, 
+              our model can combine all these tasks into one swiss-army-knife tool, enabling the user to perform shape generation 
+              using incomplete shapes, images, and textual descriptions at the same time, providing the relative weights for 
+              each input and facilitating interactivity. Despite our approach being shape-only, we further show an efficient 
+              method to texture the generated shape using large-scale text-to-image models.
+            </i>
+        </p>
+
+        <pre xml:space="preserve">
+          @article{cheng2022sdfusion,
+            title={{SDFusion}: Multimodal 3D Shape Completion, Reconstruction, and Generation},
+            author={Cheng, Yen-Chi and Lee, Hsin-Ying and Tulyakov, Sergey and Schwing, Alex and Gui, Liangyan},
+            journal={arXiv preprint arXiv:2212.00792},
+            year={2022}
+          }
+        </pre>
+
+        </div>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td width="33%" valign="top" align="center">
+        <a href="#">
+        <!-- <img src="images/generative3d_teaser.png" alt="sym" width="300" height="200" style="border-radius:15px"> -->
         <video autoplay loop muted playsinline width="300" height="200" style="border-radius:1px">
           <source src="./gen3d_teaser_thumbnail.mp4" type="video/mp4">
         </video>
@@ -716,6 +775,10 @@
 
 <script xml:space="preserve" language="JavaScript">
 hideallbibs();
+</script>
+
+<script xml:space="preserve" language="JavaScript">
+  hideblock('sdfusion22_abs');
 </script>
 
 <script xml:space="preserve" language="JavaScript">
