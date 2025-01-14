@@ -259,6 +259,122 @@
 </table>
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
 
+
+  <tr>
+    <td width="33%" valign="top" align="center">
+        <a href="#">
+        <img src="images/teaser_3dfixup.png" alt="sym" width="300" height="200" style="border-radius:15px">
+        <!-- <video autoplay loop muted playsinline width="300" height="300" style="border-radius:1px">
+          <source src="./teaser-thumbnail_sdfusion.mp4" type="video/mp4">
+        </video> -->
+        </a>
+    </td>
+
+    <td width="67%" valign="top">
+        <p>
+            <a href="#" id="VPets23">
+
+            <heading>3D-Fixup: Advancing Photo Editing with 3D Priors</heading></a>
+            <br>
+            <u><b>Yen-Chi Cheng</b></u>, Krishna Kumar Singh, Jae Shin Yoon, Alex Schwing, Liangyan Gui, Matheus Gadelha, Paul Guerrero, Nanxuan Zhao
+            <!-- Tao Tu, Ming-Feng Li, Chieh Hubert Lin, <u><b>Yen-Chi Cheng</b></u>, Min Sun, Ming-Hsuan Yang -->
+            <br>
+            ArXiv
+        </p>
+
+        <div class="paper" id="3dfixup_24">
+        <a href="https://yccyenchicheng.github.io/">webpage</a> |
+        <a href="javascript:toggleblock('3dfixup24_abs')">abstract</a> |
+        <a shape="rect" href="javascript:togglebib('3dfixup24')" class="togglebib">bibtex</a> |
+        <!-- <a href="https://arxiv.org/abs/2312.02617">arXiv</a> | -->
+        <!-- <a href="https://github.com/yccyenchicheng/VirtualPets">code</a> -->
+
+        <p align="justify">
+            <i id="3dfixup24_abs">
+              Diffusion models have shown powerful image generation capability, yet 3D-aware image editing remains a challenging task, particularly
+              when preserving the object content identity from a single image. To tackle this problem, we propose 3D-Fixup, a new framework for
+              editing 2D images guided by learned 3D priors, which supports hard editing cases such as object translation and 3D rotation. 
+              We leverage a training-based approach that harnesses the genera- tive power of diffusion models, and turn to video data for generating
+              training pairs, given that the video frames nat- urally encode real-world physical dynamics. Rather than relying solely on a single
+              trained model to infer transforma- tions between source and target frames, we incorporate 3D guidance from an Image-to-3D model,
+              which helps bridge this challenging task by explicitly projecting 2D information into 3D space. We design a data generation pipeline
+              to ensure high-quality 3D guidance throughout training. Results show that by integrating these 3D priors, 3D-Fixup effec- tively supports
+              complex, identity coherent 3D-aware edits, achieving high-quality results and advancing the applica- tion of diffusion models in realistic
+              image manipulation.
+            </i>
+        </p>
+
+        <pre xml:space="preserve">
+          @article{cheng20243dfixup,
+            title={3D-Fixup: Advancing Photo Editing with 3D Priors},
+            author={Cheng, Yen-Chi and Singh,  Krishna Kumar and Yoon, Jae Shin and Schwing, Alex and Gui, Liangyan and Gadelha, Matheus and Guerrero, Paul and Zhao, Nanxuan},
+            journal={arXiv preprint arXiv:2312.14154},
+            year={2024}
+          }
+        </pre>
+
+        </div>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td width="33%" valign="top" align="center">
+        <a href="#">
+        <img src="images/dreamo_teaser.png" alt="sym" width="300" height="200" style="border-radius:15px">
+        <!-- <video autoplay loop muted playsinline width="300" height="300" style="border-radius:1px">
+          <source src="./teaser-thumbnail_sdfusion.mp4" type="video/mp4">
+        </video> -->
+        </a>
+    </td>
+
+    <td width="67%" valign="top">
+        <p>
+            <a href="#" id="DreaMo25">
+
+            <heading>DreaMo: Articulated 3D Reconstruction From A Single Casual Video</heading></a>
+            <br>
+            Tao Tu, Ming-Feng Li, Chieh Hubert Lin, <u><b>Yen-Chi Cheng</b></u>, Min Sun, Ming-Hsuan Yang
+            <br>
+            WACV 2025
+        </p>
+
+        <div class="paper" id="dreamo25">
+        <a href="https://ttaoretw.github.io/DreaMo/">webpage</a> |
+        <a href="javascript:toggleblock('dreamo25_abs')">abstract</a> |
+        <a shape="rect" href="javascript:togglebib('dreamo25')" class="togglebib">bibtex</a> |
+        <a href="https://arxiv.org/abs/2312.02617">arXiv</a> |
+        <!-- <a href="https://github.com/yccyenchicheng/VirtualPets">code</a> -->
+
+        <p align="justify">
+            <i id="dreamo25_abs">
+              Articulated 3D reconstruction has valuable applications in various domains, yet it remains costly and demands intensive work from domain experts.
+              Recent advancements in template-free learning methods show promising results with monocular videos. Nevertheless, these approaches necessitate
+              a comprehensive coverage of all viewpoints of the subject in the input video, thus limiting their applicability to casually captured videos from
+              online sources. In this work, we study articulated 3D shape reconstruction from a single and casually captured internet video, where the subject's
+              view coverage is incomplete. We propose DreaMo that jointly performs shape reconstruction while solving the challenging low-coverage regions with
+              view-conditioned diffusion prior and several tailored regularizations. In addition, we introduce a skeleton generation strategy to create
+              human-interpretable skeletons from the learned neural bones and skinning weights. We conduct our study on a self-collected internet video collection
+              characterized by incomplete view coverage. DreaMo shows promising quality in novel-view rendering, detailed articulated shape reconstruction, and
+              skeleton generation. Extensive qualitative and quantitative studies validate the efficacy of each proposed component, and show existing methods
+              are unable to solve correct geometry due to the incomplete view coverage.
+            </i>
+        </p>
+
+        <pre xml:space="preserve">
+          @article{tu2023dreamo,
+            title={DreaMo: Articulated 3D Reconstruction From A Single Casual Video},
+            author={Tu, Tao and Li, Ming-Feng and Lin, Chieh Hubert and Cheng, Yen-Chi and Sun, Min and Yang, Ming-Hsuan},
+            journal={arXiv preprint arXiv:2312.02617},
+            year={2023}
+          }
+        </pre>
+
+        </div>
+    </td>
+  </tr>
+
+
   <tr>
     <td width="33%" valign="top" align="center">
         <a href="#">
@@ -836,6 +952,14 @@
 
 <script xml:space="preserve" language="JavaScript">
 hideallbibs();
+</script>
+
+<script xml:space="preserve" language="JavaScript">
+  hideblock('3dfixup24_abs');
+</script>
+
+<script xml:space="preserve" language="JavaScript">
+  hideblock('dreamo25_abs');
 </script>
 
 <script xml:space="preserve" language="JavaScript">
